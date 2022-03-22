@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-int MySAGAvg(arr)
+int MySAGAvg(int arr)
 {
     int total = 0,i;
 

@@ -1,5 +1,5 @@
-#include <studio.h>
+#include <stdio.h>
 
-int[] MySAGInit(int Wsize){
-	
+int MySAGInit(int Wsize){
+	return;
 }

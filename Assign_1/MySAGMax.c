@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-int MySAGMax(Aarr)
+int MySAGMax(int arr)
 {
     int max = 0,i;
 
