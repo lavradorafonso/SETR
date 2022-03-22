@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-int MySAGAvg(int arr)
+int MySAGAvg(int arr[])
 {
     int total = 0,i;
 
@@ -12,7 +12,7 @@ int MySAGAvg(int arr)
     }
 
     int avg = total/i;              //calculate average
-    printf("The average is:%.2f ", avg);
+    printf("The average is:%.2d ", avg);
     return avg;
 }
 
