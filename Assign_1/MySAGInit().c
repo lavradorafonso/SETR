@@ -1,5 +1,5 @@
 #include <stdio.h>
 
 int MySAGInit(int Wsize){
-	return;
+	return 0;
 }
