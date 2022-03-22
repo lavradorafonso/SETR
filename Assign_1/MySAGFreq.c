@@ -1,4 +1,5 @@
 #include <studio.h>
+#include <string.h>
 
 int MySAGFreq(arr, value){
 	int len = strlen(arr);
