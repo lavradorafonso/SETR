@@ -13,6 +13,6 @@ int MySAGMin(int arr)
         }
     }
 
-    printf("The max is:%.2f ", min);
+    printf("The max is:%.2d ", min);
     return min;
 }

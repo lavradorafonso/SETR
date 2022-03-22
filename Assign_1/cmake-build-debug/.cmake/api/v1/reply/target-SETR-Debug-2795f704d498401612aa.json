@@ -110,19 +110,19 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "MySAGFreq().c",
+			"path" : "MySAGFreq.c",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "MySAGInit().c",
+			"path" : "MySAGInit.c",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "MySAGInsert().c",
+			"path" : "MySAGInsert.c",
 			"sourceGroupIndex" : 0
 		},
 		{
