@@ -1,5 +1,6 @@
 #include <stdio.h>
 
 int MySAGInit(int Wsize){
-	return 0;
+	int arr[Wsize] = 0;
+	return arr;
 }

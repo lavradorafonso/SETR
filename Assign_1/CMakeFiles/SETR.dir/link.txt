@@ -1,0 +1,1 @@
+/usr/bin/cc    CMakeFiles/SETR.dir/MySAGAvg.c.o CMakeFiles/SETR.dir/MySAGFreq.c.o CMakeFiles/SETR.dir/MySAGInit.c.o CMakeFiles/SETR.dir/MySAGInsert.c.o CMakeFiles/SETR.dir/MySAGMax.c.o CMakeFiles/SETR.dir/MySAGMin.c.o CMakeFiles/SETR.dir/main.c.o  -o SETR 

@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/bruno/Desktop/SETR/aulas/SETR/Assign_1/MySAGAvg.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+
+/home/bruno/Desktop/SETR/aulas/SETR/Assign_1/main.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+MySAGAvg.c
+/home/bruno/Desktop/SETR/aulas/SETR/Assign_1/MySAGAvg.c
+
