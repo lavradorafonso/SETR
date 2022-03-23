@@ -57,9 +57,22 @@ include CMakeFiles/SETR.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/SETR.dir/flags.make
 
+CMakeFiles/SETR.dir/main.c.o: CMakeFiles/SETR.dir/flags.make
+CMakeFiles/SETR.dir/main.c.o: main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bruno/Desktop/SETR/aulas/SETR/Assign_1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/SETR.dir/main.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SETR.dir/main.c.o   -c /home/bruno/Desktop/SETR/aulas/SETR/Assign_1/main.c
+
+CMakeFiles/SETR.dir/main.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SETR.dir/main.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bruno/Desktop/SETR/aulas/SETR/Assign_1/main.c > CMakeFiles/SETR.dir/main.c.i
+
+CMakeFiles/SETR.dir/main.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SETR.dir/main.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bruno/Desktop/SETR/aulas/SETR/Assign_1/main.c -o CMakeFiles/SETR.dir/main.c.s
+
 CMakeFiles/SETR.dir/MySAGAvg.c.o: CMakeFiles/SETR.dir/flags.make
 CMakeFiles/SETR.dir/MySAGAvg.c.o: MySAGAvg.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bruno/Desktop/SETR/aulas/SETR/Assign_1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/SETR.dir/MySAGAvg.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bruno/Desktop/SETR/aulas/SETR/Assign_1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/SETR.dir/MySAGAvg.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SETR.dir/MySAGAvg.c.o   -c /home/bruno/Desktop/SETR/aulas/SETR/Assign_1/MySAGAvg.c
 
 CMakeFiles/SETR.dir/MySAGAvg.c.i: cmake_force
@@ -72,7 +85,7 @@ CMakeFiles/SETR.dir/MySAGAvg.c.s: cmake_force
 
 CMakeFiles/SETR.dir/MySAGFreq.c.o: CMakeFiles/SETR.dir/flags.make
 CMakeFiles/SETR.dir/MySAGFreq.c.o: MySAGFreq.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bruno/Desktop/SETR/aulas/SETR/Assign_1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/SETR.dir/MySAGFreq.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bruno/Desktop/SETR/aulas/SETR/Assign_1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/SETR.dir/MySAGFreq.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SETR.dir/MySAGFreq.c.o   -c /home/bruno/Desktop/SETR/aulas/SETR/Assign_1/MySAGFreq.c
 
 CMakeFiles/SETR.dir/MySAGFreq.c.i: cmake_force
@@ -85,7 +98,7 @@ CMakeFiles/SETR.dir/MySAGFreq.c.s: cmake_force
 
 CMakeFiles/SETR.dir/MySAGInit.c.o: CMakeFiles/SETR.dir/flags.make
 CMakeFiles/SETR.dir/MySAGInit.c.o: MySAGInit.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bruno/Desktop/SETR/aulas/SETR/Assign_1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/SETR.dir/MySAGInit.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bruno/Desktop/SETR/aulas/SETR/Assign_1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/SETR.dir/MySAGInit.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SETR.dir/MySAGInit.c.o   -c /home/bruno/Desktop/SETR/aulas/SETR/Assign_1/MySAGInit.c
 
 CMakeFiles/SETR.dir/MySAGInit.c.i: cmake_force
@@ -98,7 +111,7 @@ CMakeFiles/SETR.dir/MySAGInit.c.s: cmake_force
 
 CMakeFiles/SETR.dir/MySAGInsert.c.o: CMakeFiles/SETR.dir/flags.make
 CMakeFiles/SETR.dir/MySAGInsert.c.o: MySAGInsert.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bruno/Desktop/SETR/aulas/SETR/Assign_1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/SETR.dir/MySAGInsert.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bruno/Desktop/SETR/aulas/SETR/Assign_1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/SETR.dir/MySAGInsert.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SETR.dir/MySAGInsert.c.o   -c /home/bruno/Desktop/SETR/aulas/SETR/Assign_1/MySAGInsert.c
 
 CMakeFiles/SETR.dir/MySAGInsert.c.i: cmake_force
@@ -111,7 +124,7 @@ CMakeFiles/SETR.dir/MySAGInsert.c.s: cmake_force
 
 CMakeFiles/SETR.dir/MySAGMax.c.o: CMakeFiles/SETR.dir/flags.make
 CMakeFiles/SETR.dir/MySAGMax.c.o: MySAGMax.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bruno/Desktop/SETR/aulas/SETR/Assign_1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/SETR.dir/MySAGMax.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bruno/Desktop/SETR/aulas/SETR/Assign_1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/SETR.dir/MySAGMax.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SETR.dir/MySAGMax.c.o   -c /home/bruno/Desktop/SETR/aulas/SETR/Assign_1/MySAGMax.c
 
 CMakeFiles/SETR.dir/MySAGMax.c.i: cmake_force
@@ -124,7 +137,7 @@ CMakeFiles/SETR.dir/MySAGMax.c.s: cmake_force
 
 CMakeFiles/SETR.dir/MySAGMin.c.o: CMakeFiles/SETR.dir/flags.make
 CMakeFiles/SETR.dir/MySAGMin.c.o: MySAGMin.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bruno/Desktop/SETR/aulas/SETR/Assign_1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/SETR.dir/MySAGMin.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bruno/Desktop/SETR/aulas/SETR/Assign_1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/SETR.dir/MySAGMin.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SETR.dir/MySAGMin.c.o   -c /home/bruno/Desktop/SETR/aulas/SETR/Assign_1/MySAGMin.c
 
 CMakeFiles/SETR.dir/MySAGMin.c.i: cmake_force
@@ -135,39 +148,26 @@ CMakeFiles/SETR.dir/MySAGMin.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SETR.dir/MySAGMin.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bruno/Desktop/SETR/aulas/SETR/Assign_1/MySAGMin.c -o CMakeFiles/SETR.dir/MySAGMin.c.s
 
-CMakeFiles/SETR.dir/main.c.o: CMakeFiles/SETR.dir/flags.make
-CMakeFiles/SETR.dir/main.c.o: main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bruno/Desktop/SETR/aulas/SETR/Assign_1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/SETR.dir/main.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SETR.dir/main.c.o   -c /home/bruno/Desktop/SETR/aulas/SETR/Assign_1/main.c
-
-CMakeFiles/SETR.dir/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SETR.dir/main.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/bruno/Desktop/SETR/aulas/SETR/Assign_1/main.c > CMakeFiles/SETR.dir/main.c.i
-
-CMakeFiles/SETR.dir/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SETR.dir/main.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/bruno/Desktop/SETR/aulas/SETR/Assign_1/main.c -o CMakeFiles/SETR.dir/main.c.s
-
 # Object files for target SETR
 SETR_OBJECTS = \
+"CMakeFiles/SETR.dir/main.c.o" \
 "CMakeFiles/SETR.dir/MySAGAvg.c.o" \
 "CMakeFiles/SETR.dir/MySAGFreq.c.o" \
 "CMakeFiles/SETR.dir/MySAGInit.c.o" \
 "CMakeFiles/SETR.dir/MySAGInsert.c.o" \
 "CMakeFiles/SETR.dir/MySAGMax.c.o" \
-"CMakeFiles/SETR.dir/MySAGMin.c.o" \
-"CMakeFiles/SETR.dir/main.c.o"
+"CMakeFiles/SETR.dir/MySAGMin.c.o"
 
 # External object files for target SETR
 SETR_EXTERNAL_OBJECTS =
 
+SETR: CMakeFiles/SETR.dir/main.c.o
 SETR: CMakeFiles/SETR.dir/MySAGAvg.c.o
 SETR: CMakeFiles/SETR.dir/MySAGFreq.c.o
 SETR: CMakeFiles/SETR.dir/MySAGInit.c.o
 SETR: CMakeFiles/SETR.dir/MySAGInsert.c.o
 SETR: CMakeFiles/SETR.dir/MySAGMax.c.o
 SETR: CMakeFiles/SETR.dir/MySAGMin.c.o
-SETR: CMakeFiles/SETR.dir/main.c.o
 SETR: CMakeFiles/SETR.dir/build.make
 SETR: CMakeFiles/SETR.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bruno/Desktop/SETR/aulas/SETR/Assign_1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking C executable SETR"
