@@ -1,9 +1,30 @@
+/** @file MySAGMin.c
+ * @brief Minimum - function
+ *
+ * This function gets the minimum value of the array
+ * 
+ * @author
+ * @date 23 March 2022
+ * @bug No known issues
+ */
+
+/* Includes */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 #include "module.h"
 
-int MySAGMin(int arr)
+/**
+ * @brief Minimum - function
+ *
+ * This function gets the minimum value of the array
+ * 
+ * 
+ * @return returns the minimum value of the array
+ */
+
+int MySAGMin(int arr[])
 {
     int min = 0,i;
 

@@ -1,0 +1,21 @@
+digraph "module.h"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="module.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="header file"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node2 [label="main.c",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$main_8c.html",tooltip="Test functions."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node3 [label="MySAGAvg.c",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$MySAGAvg_8c.html",tooltip="Average - function."];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node4 [label="MySAGFreq.c",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$MySAGFreq_8c.html",tooltip="Frequency of a given value - function."];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node5 [label="MySAGInit.c",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$MySAGInit_8c.html",tooltip="Inits the module - function."];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node6 [label="MySAGInsert.c",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$MySAGInsert_8c.html",tooltip="Insert - function."];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node7 [label="MySAGMax.c",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$MySAGMax_8c.html",tooltip="Maximum - function."];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node8 [label="MySAGMin.c",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$MySAGMin_8c.html",tooltip="Minimum - function."];
+}

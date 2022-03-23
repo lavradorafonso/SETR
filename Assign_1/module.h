@@ -1,4 +1,16 @@
-#ifndef module_h_
+/** @file module.h
+ * @brief header file
+ *
+ * header file that has every function created
+ * 
+ * @author 
+ * @date 23 March 2022
+ * @bug No known issues
+ */
+
+/* Includes */
+
+#ifndef module_h
 #define module_h
 
 int MySAGInit(int Wsize);
