@@ -3,7 +3,7 @@
 #include <string.h>
 #include "module.h"
 
-int MySAGMin(int arr[])
+int MySAGMin(int arr)
 {
     int min = 0,i;
 

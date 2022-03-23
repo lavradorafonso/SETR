@@ -3,7 +3,7 @@
 #include <string.h>
 #include "module.h"
 
-int MySAGMax(int arr[])
+int MySAGMax(int arr)
 {
     int max = 0,i;
 

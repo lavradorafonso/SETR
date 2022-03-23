@@ -3,7 +3,7 @@
 #include <string.h>
 #include "module.h"
 
-int MySAGAvg(int arr[])
+int MySAGAvg(int arr)
 {
     int total = 0,i;
 

@@ -2,7 +2,7 @@
 #include <string.h>
 #include "module.h"
 
-int MySAGFreq(int arr[], int value){
+int MySAGFreq(int arr, int value){
 	int len = strlen(arr);
 	int i =0;
 	int cnt=0;
